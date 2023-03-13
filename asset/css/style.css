@@ -1,0 +1,28 @@
+body {
+    font-family: 'Rubik', sans-serif !important; font-weight: bold !important;
+}
+
+/* ul li {
+    list-style-type: none;
+}
+
+ul {
+    
+} */
+
+@media (min-width: 992px) {
+
+    .navbar-expand-lg .navbar-collapse {
+        justify-content: end;
+    }
+
+}
+
+/* .navbar {
+    background-color: rgb(44,62,80);
+} */
+
+.bg-dark2 {
+    background-color: rgb(44,62,80);
+}
+
