@@ -26,3 +26,15 @@ ul {
     background-color: rgb(44,62,80);
 }
 
+img {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+.row  img {
+    width: 100%;
+    display: block;
+    margin: auto;
+    border-radius: 1rem;
+}
