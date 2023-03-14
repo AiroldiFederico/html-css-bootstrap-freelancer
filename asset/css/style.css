@@ -38,3 +38,22 @@ img {
     margin: auto;
     border-radius: 1rem;
 }
+
+.bg-green-section {
+    background-color: rgb(26,188,156);
+}
+
+
+.line-star-white {
+    height: 0.2rem;
+    width: 4rem;
+    background-color: white;
+    padding: 0;
+}
+
+.line-star-black {
+    height: 0.2rem;
+    width: 4rem;
+    background-color: rgb(0, 0, 0);
+    padding: 0;
+}
