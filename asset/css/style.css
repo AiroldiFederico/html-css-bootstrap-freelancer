@@ -61,3 +61,8 @@ img {
 .bg-dark-footer {
     background-color: rgb(58,84,109) ;
 }
+
+a {
+    text-decoration: none;
+};
+

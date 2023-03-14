@@ -170,24 +170,31 @@
                     <div class="line-star-black ms-2 rounded-pill"></div>
                 </div>
 
-                <form class="col-12 col-md-6 m-auto flex">
-                    <div class="mb-3">
-                      <label for="exampleInputEmail1" class="form-label">Name</label>
-                      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <form class="col-12 col-md-6 col-lg-3 m-auto flex row justify-content-center align-items-center text-start">
+
+                    <div class="mb-3 position-relative d-inline-block">
+                      <!-- <label for="exampleInputEmail1" class="form-label position-absolute">Name</label> -->
+                      <input type="text" class="form-control border border-0 border-bottom border-dark rounded-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name">
                     </div>
-                    <div class="mb-3">
-                      <label for="exampleInputPassword1" class="form-label">Email Address</label>
-                      <input type="email" class="form-control" id="exampleInputPassword1">
+
+                    <div class="mb-3 position-relative d-inline-block">
+                        <!-- <label for="exampleInputEmail1" class="form-label position-absolute">Name</label> -->
+                        <input type="email" class="form-control border border-0 border-bottom border-dark rounded-0 " id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Address">
                     </div>
-                    <div class="mb-3">
-                        <label for="exampleInputPassword1" class="form-label">Phone Number</label>
-                        <input type="number" class="form-control" id="exampleInputPassword1">
+
+                    <div class="mb-3 position-relative d-inline-block">
+                        <!-- <label for="exampleInputEmail1" class="form-label position-absolute">Name</label> -->
+                        <input type="number" class="form-control border border-0 border-bottom border-dark rounded-0 " id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Number">
                     </div>
-                    <div class="mb-3">
-                        <label for="exampleInputPassword1" class="form-label">Message</label>
-                        <input type="text" class="form-control" id="exampleInputPassword1">
+
+                    <div class="mb-3 d-inline-block">
+                        <!-- <label for="exampleInputPassword1" class="form-label">Message</label> -->
+                        <div class="form-floating">
+                            <textarea class="form-control " placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px" ></textarea>
+                            <label for="floatingTextarea2"></label>
+                          </div>
                     </div>
-                    <button type="submit" class="btn btn-success">Submit</button>
+                    <button type="submit" class="btn bg-green-section text-white w-25">Send</button>
                 </form>
 
             </section>
@@ -208,10 +215,10 @@
                     <span class="text-uppercase">around the web</span>
     
                     <div>
-                        <i class="fa-brands fa-facebook-f"></i>
-                        <i class="fa-brands fa-google-plus-g"></i>
-                        <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-linkedin-in"></i>
+                        <a href="#" class=" text-white"> <i class="fa-brands fa-facebook-f border border-white rounded-circle p-2 m-1 d-inline-block w-15"></i> </a>
+                        <a href="#" class=" text-white"> <i class="fa-brands fa-google-plus-g border border-white rounded-circle p-2 m-1 d-inline-block w-5"></i> </a>
+                        <a href="#" class=" text-white"> <i class="fa-brands fa-twitter border border-white rounded-circle p-2 m-1 d-inline-block w-5"></i> </a>
+                        <a href="#" class=" text-white"> <i class="fa-brands fa-linkedin-in border border-white rounded-circle p-2 m-1 d-inline-block w-5"></i> </a>
                     </div>
                 </div>
     
@@ -221,7 +228,7 @@
                 <div class="mt-4 pb-4 col-12 col-md-4">
                     <span class="text-uppercase">about freelancer</span>
     
-                    <div>Freelancer is a free to use, opensource Bootstrap theme created by <a href="#">Start Bootstrap</a></div>
+                    <div>Freelancer is a free to use, opensource Bootstrap theme created by <a href="#" class="text-success">Start Bootstrap</a>.</div>
                 </div>
             </div>
 
